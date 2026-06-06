@@ -52,6 +52,20 @@ u {
   text-decoration: underline;
   text-underline-offset: 3px;
 }
+#navbar {
+  position: fixed;
+  top: 0;
+  left: 0;
+  right: 0;
+  z-index: 100;
+  height: 56px;
+  background: rgba(14, 14, 14, 0.95);
+  border-bottom: 1px solid #222;
+  display: flex;
+  align-items: center;
+  gap: 1.5rem;
+  padding: 0 2rem;
+}
 #logo { 
 display: flex;
   align-items: center;
