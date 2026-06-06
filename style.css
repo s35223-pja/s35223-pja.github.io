@@ -214,15 +214,3 @@ display: flex;
   gap: 1rem;
   flex_wrap: wrap;
 }
-#hero-coords {
-  position: absolute;
-  bottom: 2rem;
-  left: 3rem;
-  z-index: 4;
-  dispay: flex;
-  gap: 1.5rem;
-  font_family: 'Share Tech Mono', monospace;
-  font-size: 0.58rem;
-  color: #444;
-  letter-spacing: 0.1rem;
-}
