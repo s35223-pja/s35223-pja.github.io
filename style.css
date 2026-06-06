@@ -1,1 +1,10 @@
-
+:root {
+  --lime: #c8f000;
+  --bg: #111317;
+  --bg-card: #1a1a1a;
+  --bg-darker: #0e0e0e;
+  --text: #f0ede6;
+  --muted: #888;
+  --border: rgba(255, 255, 255, 0.06);
+  --redius: 0px;
+}
