@@ -219,3 +219,88 @@ footer {
   border-top: 1px solid #222;
   padding: 3rem 3rem 0;
 }
+#footer-inner {
+  display: flex;
+  gap: 4rem;
+  padding-bottom: 2.5rem;
+  border-bottom: 1px solid #1a1a1a;
+  flex-wrap: wrap;
+}
+#footer-brand {
+  flex: 1;
+  min-width: 200px;
+}
+#footer-logo {
+  font-family: 'Bebas Neue', sans-serif;
+  font-size: 3rem;
+  color: var(--lime);
+  line-height: 1;
+}
+
+#footer-sub {
+  font-family: 'Share Tech Mono', monospace;
+  font-size: 0.6rem;
+  color: #444;
+  letter-spacing: 0.15em;
+  margin-bottom: 0.8rem;
+}
+
+#footer-about {
+  font-size: 0.85rem;
+  color: #444;
+  max-width: 280px;
+  line-height: 1.5;
+}
+
+.footer-col h4 {
+  font-family: 'Share Tech Mono', monospace;
+  font-size: 0.58rem;
+  letter-spacing: 0.2em;
+  color: var(--lime);
+  margin-bottom: 1rem;
+}
+
+.footer-col ul {
+  display: flex;
+  flex-direction: column;
+  gap: 0.5rem;
+}
+
+.footer-col ul a {
+  font-size: 0.9rem;
+  color: #666;
+  transition: color 0.2s;
+}
+
+.footer-col ul a:hover {
+  color: var(--lime);
+  opacity: 1;
+}
+
+#footer-bottom {
+  padding: 1.2rem 0;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  flex-wrap: wrap;
+  gap: 0.5rem;
+}
+
+#footer-bottom p {
+  font-family: 'Share Tech Mono', monospace;
+  font-size: 0.58rem;
+  color: #333;
+  letter-spacing: 0.08em;
+}
+
+#footer-bottom strong {
+  color: #666;
+}
+
+#footer-badge {
+  font-family: 'Share Tech Mono', monospace;
+  font-size: 0.58rem;
+  color: var(--lime);
+  border: 1px solid rgba(200, 240, 0, 0.2);
+  padding: 0.25rem 0.7rem;
+}
