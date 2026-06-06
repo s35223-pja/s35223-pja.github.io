@@ -14,6 +14,9 @@ html {
 body {
   backgroung: var(--bg);
   color: var(--text);
+  font-family: 'Rajdhani', sans-serif;
+  font-size: 1 rem;
+  line-height: 1.6;
 }
 #logo { 
 display: flex;
