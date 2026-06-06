@@ -214,3 +214,8 @@ display: flex;
   gap: 1rem;
   flex_wrap: wrap;
 }
+footer {
+  background: #0a0a0a;
+  border-top: 1px solid #222;
+  padding: 3rem 3rem 0;
+}
