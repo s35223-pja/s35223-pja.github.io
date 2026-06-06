@@ -12,10 +12,10 @@ html {
   scroll-behavior: smooth;
 }
 body {
-  backgroung: var(--bg);
+  background: var(--bg);
   color: var(--text);
   font-family: 'Rajdhani', sans-serif;
-  font-size: 1 rem;
+  font-size: 1rem;
   line-height: 1.6;
 }
 img {
@@ -27,7 +27,7 @@ a {
   text-decoration: none;
 }
 a:hover {
-  opality: 0.75;
+  opacity: 0.75;
 }
 ul {
   list-style:none;
@@ -159,7 +159,7 @@ display: flex;
 #hero-overlay {
   position: absolute;
   inset: 0;
-  background: linear_gradient(to right, rgba(14,14,14,0.92) 20%, rgba(14,14,14,0.3));
+  background: linear-gradient(to right, rgba(14,14,14,0.92) 20%, rgba(14,14,14,0.3));
   z-index: 2;
 }
 #hero-accent-bar {
@@ -212,7 +212,7 @@ display: flex;
 #hero-buttons {
   display: flex;
   gap: 1rem;
-  flex_wrap: wrap;
+  flex-wrap: wrap;
 }
 #news-preview {
   background: var(--bg-darker);
