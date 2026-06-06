@@ -100,4 +100,35 @@ display: flex;
   border-color: var(--lime);
   opacity: 1;
 }
+.btn-green,
+.btn-outline {
+  display: inline-block;
+  font-family: 'Share Tech Mono', monospace;
+  font-size: 0.7rem;
+  letter-spacing: 0.12em;
+  padding: 0.65rem 1.6rem;
+  cursor: pointer;
+  transition: background 0.2s, color 0.2s, border-color 0.2s, opacity 0.2s;
+  text-decoration: none;
+}
+.btn-green {
+  background: var(--lime);
+  color: #000;
+  border: 2px solid var(--lime);
+}
+.btn-green:hover {
+  background: transparent;
+  color: var(--lime);
+  opacity: 1;
+}
+.btn-outline {
+  background: transparent;
+  color: var(--lime);
+  border: 1px solid var(--lime);
+}
+.btn-outline:hover {
+  background: var(--lime);
+  color: #000;
+  opacity: 1;
+}
   
