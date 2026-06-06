@@ -183,3 +183,46 @@ display: flex;
 .hero-line-top {top: 72px;}
 .hero-line-bottom{bottom: 3px;}
 
+#hero-text {
+  position: relative;
+  z-index: 4;
+  padding: 0 3rem;
+  max-width: 700px;
+}
+#hero-eyebrow {
+  font-family: 'Share Tech Mono', monospace;
+  font-size: 0.6rem;
+  letter-spacing: 0.2em;
+  color: var(--lime);
+  display: flex;
+  gap: 1rem;
+  margin-bottom: 1rem;
+}
+#hero-text h1 {
+  font-size: 8rem;
+  color: #fff;
+  margin-bottom: 1.2rem;
+}
+#hero-desc {
+  font-size: 1.05rem;
+  color: rgba(255, 255, 255,0.65);
+  margin-bottom: 2rem;
+  max-width: 480px;
+}
+#hero-buttons {
+  display: flex;
+  gap: 1rem;
+  flex_wrap: wrap;
+}
+#hero-coords {
+  position: absolute;
+  bottom: 2rem;
+  left: 3rem;
+  z-index: 4;
+  dispay: flex;
+  gap: 1.5rem;
+  font_family: 'Share Tech Mono', monospace;
+  font-size: 0.58rem;
+  color: #444;
+  letter-spacing: 0.1rem;
+}
