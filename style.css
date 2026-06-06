@@ -15,3 +15,8 @@ body {
   backgroung: var(--bg);
   color: var(--text);
 }
+#logo { 
+display: flex;
+  aligh-items: center;
+  flex-shrink: 0;
+}
