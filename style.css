@@ -18,6 +18,40 @@ body {
   font-size: 1 rem;
   line-height: 1.6;
 }
+img {
+  display: block;
+  max-width: 100%;
+}
+a {
+  color: var(--lime);
+  text-decoration: none;
+}
+a:hover {
+  opality: 0.75;
+}
+ul {
+  list-style:none;
+}
+h1, h2, h3, h4 {
+  font-family: 'Bebas Neue', sans-serif;
+  color: var(--text);
+  line-height: 1.1;
+}
+p {
+  color: rgba(255, 255, 255,  0.7);
+}
+strong {
+  color: var(--text);
+  font-weight: 700;
+}
+em {
+  font-style: italic;
+  color: var(--lime);
+}
+u {
+  text-decoration: underline;
+  text-underline-offset: 3px;
+}
 #logo { 
 display: flex;
   align-items: center;
