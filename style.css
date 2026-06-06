@@ -96,13 +96,11 @@ display: flex;
   letter-spacing: 0.12em;
   color: #666;
   padding: 0.35rem 0.9rem;
-  border: 1px solid transparent;
   transition: color 0.2s, border-color 0.2s;
 }
 #nav-links a:hover,
 #nav-links a.active {
   color: var(--lime);
-  border-color: var(--lime);
   opacity: 1;
 }
 .btn-green,
