@@ -17,6 +17,6 @@ body {
 }
 #logo { 
 display: flex;
-  aligh-items: center;
+  align-items: center;
   flex-shrink: 0;
 }
