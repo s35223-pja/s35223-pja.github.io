@@ -120,7 +120,7 @@ display: flex;
   letter-spacing: 0.12em;
   color: #666;
   padding: 0.35rem 0.9rem;
-  transition: color 0.2s, border-color 0.2s;
+  transition: color 0.2s;
 }
 #nav-links a:hover,
 #nav-links a.active {
