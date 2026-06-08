@@ -315,13 +315,6 @@ display: flex;
   font-size: 0.58rem;
   color: #555;
 }
-.news-meta a {
-  color: var(--lime);
-  transition: opacity 0.2s;
-}
-.news-meta a:hover {
-  opacity: 0.7;
-}
 
 footer {
   background: #0a0a0a;
