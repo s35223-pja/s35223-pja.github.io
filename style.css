@@ -208,7 +208,7 @@ display: flex;
   z-index: 3;
 }
 .hero-line-top {top: 72px;}
-.hero-line-bottom{bottom: 3px;}
+.hero-line-bottom{bottom: 26px;}
 
 #hero-text {
   position: relative;
