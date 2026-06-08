@@ -135,7 +135,7 @@ display: flex;
   opacity: 1;
 }
 .section-eyebrow {
-  font family: 'Share Tech Mono', monospace;
+  font-family: 'Share Tech Mono', monospace;
   font-size: 0.6rem;
   letter-spacing: 0.2em;
   color: var(--lime);
