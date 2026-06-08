@@ -57,6 +57,36 @@ u {
   text-decoration: underline;
   text-underline-offset: 3px;
 }
+.page-hero {
+  padding: 7rem 3rem 3rem;
+  background: #0e0e0e;
+  border-bottom: 2px solid var(--lime);
+  display: flex;
+  justify-content: space-between;
+  align-items: flex-end;
+}
+.page-hero h1 {
+  font-size: 6rem;
+  color: var(--text);
+  line-height: 1;
+}
+.page-hero p {
+  font-family: 'Share Tech Mono', monospace;
+  font-size: 0.65rem;
+  color: #555;
+  letter-spacing: 0.15em;
+  margin-top: 0.5rem;
+}
+.page-hero .hero-right span {
+  font-family: 'Share Tech Mono', monospace;
+  font-size: 0.7rem;
+  color: var(--lime);
+  border: 1px solid rgba(200,240,0,0.3);
+  padding: 0.3rem 0.8rem;
+}
+.page-hero .hero-right {
+  text-align: right;
+}
 #navbar {
   position: fixed;
   top: 0;
