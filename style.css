@@ -44,14 +44,11 @@ p {
 }
 strong {
   color: var(--text);
-  font-weight: 700;
 }
 em {
-  font-style: italic;
   color: var(--lime);
 }
 u {
-  text-decoration: underline;
   text-underline-offset: 3px;
 }
 .page-hero {
